@@ -9,6 +9,7 @@ import { ActualidadComponent } from './actualidad/actualidad.component';
 import { HomeComponent } from './home/home.component';
 import {CarouselModule} from 'primeng/carousel';
 import { IndexOfPipe } from './indexPipe';
+import { DetalleTramiteComponent } from './detalle-tramite/detalle-tramite.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { IndexOfPipe } from './indexPipe';
     TramitesComponent,
     ActualidadComponent,
     HomeComponent,
-    IndexOfPipe
+    IndexOfPipe,
+    DetalleTramiteComponent
   ],
   imports: [
     BrowserModule,

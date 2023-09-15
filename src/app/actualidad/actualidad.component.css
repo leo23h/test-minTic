@@ -1,0 +1,81 @@
+/* actualidad */
+.text-title-act{
+    font-size: 24px;
+    font-weight: 600;
+    color: #004884;
+}
+
+.text-sub-title-act{
+    font-size: 16px;
+    font-weight: 400x;
+    color: #4B4B4B;
+}
+
+.img-act{
+    width: 400px;
+    height: 230px;
+    /* object-fit:cover; */
+    object-position:50% 50%;
+    border-radius: 5px;
+}
+
+.txt-date{
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.lnk-act{
+   font-size: 18px;
+   font-weight: 600;
+   color: #004884;
+}
+
+.btn-white-act{
+    background: white;
+    border: 1px solid #3366CC;
+    border-radius: 20px;
+    color: #3366CC;
+    width: 200px;
+}
+
+.btn-white-act:hover{
+    background: #3366CC;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+.img-tramites{
+    transform: rotate(180deg);
+}
+
+.lnk-tram{
+    font-size: 13px;
+    font-weight: 400;
+    color: #004884;
+ }
+
+ .h-card{
+    height: 108px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E6EFFD;
+    border-radius: 5px;
+ }
+
+ .img-tram{
+    width: 42px;
+    height: 43px;
+ }
+
+ a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .txt-title-tram{
+    font-size: 24px;
+    font-weight: 600;
+    color: #004884;
+  }

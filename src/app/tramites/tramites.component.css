@@ -1,0 +1,33 @@
+.img-tramites{
+    transform: rotate(180deg);
+}
+
+.lnk-tram{
+    font-size: 13px;
+    font-weight: 400;
+    color: #004884;
+ }
+
+ .h-card{
+    height: 108px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E6EFFD;
+    border-radius: 5px;
+ }
+
+ .img-tram{
+    width: 42px;
+    height: 43px;
+ }
+
+ a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .txt-title-tram{
+    font-size: 24px;
+    font-weight: 600;
+    color: #004884;
+  }

@@ -1,0 +1,95 @@
+.bg-blue {
+  background-color: #3366cc;
+}
+
+.btn-outline-white {
+  background: #3366cc;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn-outline-white:hover {
+  background: white;
+  border: 1px solid #3366cc;
+  border-radius: 20px;
+  color: #3366cc;
+}
+
+.btn-white {
+  background: white;
+  border: 1px solid #3366cc;
+  border-radius: 20px;
+  color: #3366cc;
+}
+
+.btn-white:hover {
+  background: #3366cc;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+/* contacto de emergencia */
+.txt-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #004884;
+}
+
+.txt-sub-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #004884;
+}
+
+.phone-number {
+  font-size: 18px;
+  font-weight: 400;
+  color: #024884;
+}
+
+.phone-name {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4b4b4b;
+}
+
+/* footer */
+.txt-title-bold-footer {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  color: white;
+}
+
+.border-white-left {
+  border-left: 1px solid white;
+}
+
+.txt-title-footer {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.txt-content-footer {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.txt-link {
+  color: white;
+  font-size: 14px;
+}
+
+.txt-subtitle-footer {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.h-470 {
+  height: 470px;
+}

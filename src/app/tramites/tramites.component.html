@@ -1,1 +1,42 @@
-<p>tramites works!</p>
+
+<!-- tramites -->
+<section class="py-5 mt-5">
+    <div class="container-xxl">
+      <div class="col-12 px-0">
+        <span class="txt-title-tram">
+          Trámites más consultados
+        </span>
+      </div>
+      <div class="row">
+        <div class="col-1 d-flex align-self-center">
+          <a href="javascript:void(0)" (click)="anteriorPagina()" [ngClass]="{'disabled': currentPage <= 6}">
+            <img class="img-tramites" src="../assets/flecha_izquierda.svg" alt="flecha-izquierda">
+          </a>
+        </div>
+        <div class="col-10">
+          <!-- aqui vamos a coloca el contenido -->
+          <div class="row">
+            <div class="col-4" *ngFor="let item of tramiteCopy">
+              <div class="col-11 h-card">
+                <div class="row">
+                  <div class="col-2 d-flex align-items-center">
+                    <img class="img-tram" [src]="item.iconoCategoria === '' ? tramites[5].iconoCategoria  : item.iconoCategoria" alt="foto-tramite">
+                  </div>
+                  <div class="col-10 d-flex align-items-center">
+                    <a class="lnk-tram" href="javascript:void(0)">
+                      {{item.nombre}}
+                    </a>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1 d-flex align-self-center justify-content-end">
+          <a href="javascript:void(0)" (click)="siguientePagina()"  [ngClass]="{'disabled': currentPage == tramites.length}">
+            <img src="../assets/flecha_derecha.svg" alt="flecha-derecha">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
