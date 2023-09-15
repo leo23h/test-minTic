@@ -1,0 +1,220 @@
+
+.bg-blue{
+  background-color: #3366CC;
+}
+
+.btn-outline-white{
+    background: #3366CC;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+.btn-outline-white:hover{
+    background: white;
+    border: 1px solid #3366CC;
+    border-radius: 20px;
+    color: #3366CC;
+}
+
+.btn-white{
+    background: white;
+    border: 1px solid #3366CC;
+    border-radius: 20px;
+    color: #3366CC;
+}
+
+.btn-white:hover{
+    background: #3366CC;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+/* contacto de emergencia */
+.txt-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #004884;
+}
+
+.txt-sub-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #004884;
+}
+
+.phone-number{
+    font-size: 18px;
+    font-weight: 400;
+    color: #024884;
+}
+
+.phone-name{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4B4B4B;
+}
+
+/* footer */
+.txt-title-bold-footer{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+}
+
+.border-white-left{
+    border-left: 1px solid white;
+}
+
+.txt-title-footer{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.txt-content-footer{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.txt-link{
+    color: white;
+    font-size: 14px;
+}
+
+.txt-subtitle-footer{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.h-470{
+    height: 470px;
+}
+
+/* banner informativo */
+.txt-title-banner{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.txt-sub-title-banner{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.txt-sub-banner{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.btn-outline-transparent{
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    mix-blend-mode: hard-light;
+    opacity: 1;
+    width: 232px;
+    height: 40px;
+}
+
+.btn-outline-transparent:hover{
+    background: white;
+    border: 1px solid #3366CC;
+    border-radius: 20px;
+    color: #3366CC;
+    mix-blend-mode: color-dodge;
+    opacity: 0.9;
+    background-blend-mode: multiply;
+}
+
+/* actualidad */
+.text-title-act{
+    font-size: 24px;
+    font-weight: 600;
+    color: #004884;
+}
+
+.text-sub-title-act{
+    font-size: 16px;
+    font-weight: 400x;
+    color: #4B4B4B;
+}
+
+.img-act{
+    width: 400px;
+    height: 230px;
+    /* object-fit:cover; */
+    object-position:50% 50%;
+    border-radius: 5px;
+}
+
+.txt-date{
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.lnk-act{
+   font-size: 18px;
+   font-weight: 600;
+   color: #004884;
+}
+
+.btn-white-act{
+    background: white;
+    border: 1px solid #3366CC;
+    border-radius: 20px;
+    color: #3366CC;
+    width: 200px;
+}
+
+.btn-white-act:hover{
+    background: #3366CC;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+.img-tramites{
+    transform: rotate(180deg);
+}
+
+.lnk-tram{
+    font-size: 13px;
+    font-weight: 400;
+    color: #004884;
+ }
+
+ .h-card{
+    height: 108px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E6EFFD;
+    border-radius: 5px;
+ }
+
+ .img-tram{
+    width: 42px;
+    height: 43px;
+ }
+
+ a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .txt-title-tram{
+    font-size: 24px;
+    font-weight: 600;
+    color: #004884;
+  }
+
+
+
