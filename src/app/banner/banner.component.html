@@ -1,11 +1,11 @@
 <!-- banner informativo -->
-<section *ngIf="bannerControl" [ngStyle]="{'background-color': bannerControl.colorFondo}" style="height: 40px; margin-top: 57px;">
+<section *ngIf="bannerControl" [ngStyle]="{'background-color': bannerControl.colorFondo}" style="margin-top: 57px;">
     <div class="container-xxl">
-      <div class="row align-items-center">
-        <div class="col-6">
+      <div class="row align-items-center py-2">
+        <div class="col-xs-12 col-md-6 text-sm-center text-md-start ">
           <span [ngStyle]="{'color': bannerControl.colorTexto}" style="font-size: 15px">{{bannerControl.texto}}</span>
         </div>
-        <div class="col-6 text-end">
+        <div class="col-xs-12 col-md-6 text-sm-center text-md-end">
           <a href="javascript:void(0)" [ngStyle]="{'color': bannerControl.colorTexto}" style="font-size: 13px">{{bannerControl.textoAuxiliar}}</a>
         </div>
       </div>
