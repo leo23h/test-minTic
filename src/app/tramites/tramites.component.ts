@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TramitesService } from '../services/tramites.service';
+import { Tramite, TramiteInfo } from '../interfaces/tramite';
 
 @Component({
   selector: 'app-tramites',
@@ -6,17 +8,42 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tramites.component.css']
 })
 export class TramitesComponent implements OnInit {
-  tramites!: any[];
+  tramiteControl!: Tramite;
+  tramites!: TramiteInfo[];
   iconoDefault: string = '../assets/maletin_2.svg';
   currentPage: number = 6;
   currentPageAux: number = 0;
   tramiteCopy: any[] = [];
 
-  constructor() { }
+  constructor(private tramiteService: TramitesService) { }
 
   ngOnInit(): void {
-    this.tramites = this.getTramites();
-    this.paginaInicial();
+    this.getTramiteControl();
+    this.getTramiteInfo();
+    
+  }
+
+  getTramiteControl(){
+    this.tramiteService.getTramiteControl().subscribe(
+      (response: Tramite) =>{
+        this.tramiteControl = response;
+      },
+      (error: any)=>{
+        console.log("error para obtener la informacion de tramite control", error);
+      }
+    )
+  }
+
+  getTramiteInfo(){
+    this.tramiteService.getTramiteInfo().subscribe(
+      (response: TramiteInfo[]) =>{
+        this.tramites = response;
+        this.paginaInicial();
+      },
+      (error: any)=>{
+        console.log("error para obtener la informacion de tramite data", error);
+      }
+    )
   }
 
   paginaInicial() {

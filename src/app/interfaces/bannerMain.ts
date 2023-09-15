@@ -1,4 +1,4 @@
-export interface BannerInfo{
+export interface BannerMain{
     id: number;
     textoBienvenida: string;
     urlImagen: string | null;

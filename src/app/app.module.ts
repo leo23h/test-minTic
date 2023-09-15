@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import {CarouselModule} from 'primeng/carousel';
 import { IndexOfPipe } from './indexPipe';
 import { DetalleTramiteComponent } from './detalle-tramite/detalle-tramite.component';
+import { HttpClientModule } from  '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { DetalleTramiteComponent } from './detalle-tramite/detalle-tramite.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CarouselModule
+    CarouselModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

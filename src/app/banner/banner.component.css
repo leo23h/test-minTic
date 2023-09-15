@@ -36,3 +36,10 @@
     opacity: 0.9;
     background-blend-mode: multiply;
 }
+
+.bg-img{
+    height: 350px; background: #3366CC; opacity: 0.9; background-size: cover;
+    background-repeat: no-repeat; 
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+}

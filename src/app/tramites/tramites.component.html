@@ -2,12 +2,12 @@
 <!-- tramites -->
 <section class="py-5 mt-5">
     <div class="container-xxl">
-      <div class="col-12 px-0">
+      <div class="col-12 px-0" *ngIf="tramiteControl">
         <span class="txt-title-tram">
-          Trámites más consultados
+          {{tramiteControl.titulo}}
         </span>
       </div>
-      <div class="row">
+      <div class="row" *ngIf="tramites">
         <div class="col-1 d-flex align-self-center">
           <a href="javascript:void(0)" (click)="anteriorPagina()" [ngClass]="{'disabled': currentPage <= 6}">
             <img class="img-tramites" src="../assets/flecha_izquierda.svg" alt="flecha-izquierda">
